@@ -1,0 +1,93 @@
+body, td, a, p, .h {
+    font-family: arial,sans-serif;
+}
+
+a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;    
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #609;
+}
+
+#headers1{
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#gmail, #images, #icon{
+    float: right;
+    padding-left: 10px; 
+}
+
+#privacy, #images, #icon{
+    float: right;
+    padding-left: 10px; 
+}
+
+#settings, #images, #icon{
+    float: right;
+    padding-left: 10px;
+}
+           
+
+#but{
+    margin-left: 10px;
+    float: right;
+    padding: 5px;
+}
+
+.head{
+    padding-left: 10px;    
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 25px;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+img {
+   position: absolute;
+   top: 60%;
+   left: 55%;
+   width: 25%;
+   height: auto;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+}
+
+
+.resp-image { max-width: 100%; height: auto; } 
+
+#locator { position: absolute; visibility: visible; left: 20px; top: 300px; height: 100px; width: 150px; z-index: 200; }
+
+
+
+input{
+    border: none;
+}
+
+
+
+/*
+.test {
+    text-align: center;
+}
+h2 {
+    display: inline-block;
+}
+
+a {
+    float: right;
+}*/
